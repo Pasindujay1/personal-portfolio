@@ -61,13 +61,15 @@ const Banner = () => {
                 >
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
-                    {`Hi I'm Pasindu Jayasinghe, I'm a Web Developer'}
-                    <span className="wrap">{text}</span>
+                    {`Hi I'm Pasindu Jayasinghe, I'm a `}
+                    <span className="wrap">{'Web Developer,UI/UX Designer'}</span>
+                    <span className="wrap">{'UI/UX Designer'}</span>
+                    <span className="wrap">{'Web Designer'}</span>
                   </h1>
-                  <p>Tagline</p>
+                  <p>Forging a better future with today's persistent efforts</p>
                   <button
                     onClick={() =>
-                      (window.location.href = "URL to LinkedIn profile")
+                      (window.location.href = "https://www.linkedin.com/in/pasindu-jay/")
                     }
                   >
                     Let's connect <ArrowRightCircle size={25} />
